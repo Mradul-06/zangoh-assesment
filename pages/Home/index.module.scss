@@ -1,0 +1,139 @@
+.pageWrapper {
+  display: flex;
+  height: 100vh;
+
+
+  .leftSection {
+    width: 50%;
+    margin-left: 40px;
+
+
+    .header {
+      margin-top: 33px;
+      display: flex;
+    }
+
+    .infoSection {
+      margin-left: 20px;
+      margin-top: 264px;
+      margin-right: 90px;
+
+      .infoSectionTextHeading {
+        font-size: 42px;
+        font-weight: 500;
+        color: #3E3E3E;
+        text-align: left;
+        line-height: 54px;
+        margin-bottom: 20px;
+
+      }
+
+      .infoSectionTextSubHeading {
+        color: #6D6D6D;
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: -0.11px;
+        text-align: left;
+        line-height: 27px;
+
+      }
+
+
+    }
+
+    .footerSection {
+      margin-left: 20px;
+
+      .footerLeftSection {
+        position: absolute;
+        bottom: 40px;
+        display: flex;
+        align-items: center;
+
+        .logoContainer {
+          margin-right: 12px;
+        }
+      }
+    }
+  }
+
+  .rightSection {
+    width: 50%;
+    padding: 0 20px;
+    transition: background-image 0.5s ease;
+
+
+    .header {
+      margin-top: 33px;
+      display: flex;
+      justify-content: flex-end;
+
+      .nav {
+        display: flex;
+        gap: 21px;
+        align-items: center;
+
+        .navItem {
+          display: flex;
+          color: #F7F7F7;
+          font-size: 12px;
+        }
+
+      }
+
+    }
+
+    .textContainer {
+      display: flex;
+      flex-direction: column;
+      margin-left: 110px;
+      margin-top: 440px;
+      width: 220px;
+
+      .textHeading {
+        font-size: 18px;
+        letter-spacing: -0.12px;
+        color: #FFFFFF;
+        text-align: left;
+        font-weight: 600;
+        line-height: 27px;
+
+      }
+
+      .textDescription {
+        font-weight: 300;
+        margin-top: 24px;
+        text-align: left;
+        letter-spacing: -0.11px;
+        line-height: 27px;
+        color: #FFE8DF;
+      }
+    }
+
+    .carouselController {
+      margin-left: 110px;
+
+      margin-top: 16px;
+      display: flex;
+      gap: 6px;
+
+      .carouselControllerItemSelected {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #FFFFFF;
+      }
+
+      .carouselControllerItem {
+        width: 8px;
+        height: 8px;
+        border: 1px solid #FFFFFF;
+        border-radius: 50%;
+      }
+
+    }
+
+  }
+
+
+}

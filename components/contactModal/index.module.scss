@@ -1,0 +1,126 @@
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+
+
+  .modalContent {
+
+    box-sizing: border-box;
+    border-radius: 16px;
+    min-width: 480px;
+    //max-width: 720px;
+    //max-height: 700px;
+    display: flex;
+    flex-direction: column;
+    background: #FCEBE5;
+    box-shadow: 1px 1px 6px 2px #797979;
+    padding: 20px;
+
+
+    .closeIcon {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .body {
+
+      .header {
+        font-size: 42px;
+        line-height: 47px;
+        color: #495057;
+        letter-spacing: 2.1px;
+        font-weight: 700;
+      }
+
+      .subHeader {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 38px;
+        color: #ADB5BD;
+      }
+
+      .form {
+        .inputField {
+          display: flex;
+          background: #F8F9FA;
+          border-radius: 30px;
+          padding: 16px 30px;
+          margin-bottom: 10px;
+          justify-content: space-between;
+
+          .label {
+            color: #495057;
+            letter-spacing: 0.48px;
+
+          }
+
+          .formField {
+            margin-right: 50px;
+            width: 250px;
+          }
+
+          .input {
+            border: none;
+          }
+
+        }
+
+        .btnContainer {
+          display: flex;
+          justify-content: flex-end;
+          margin-top: 5px;
+
+          .submitBtn {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #000000;
+            color: #FFFFFF;
+            border-radius: 39px;
+            height: 45px;
+            width: 105px;
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 0.48px;
+            line-height: 38px;
+          }
+        }
+      }
+
+
+      .footer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 8px;
+        margin-bottom: 15px;
+
+        .helpText {
+          color: #495057;
+          font-size: 12px;
+          letter-spacing: 0.48px;
+
+        }
+
+        .socialMediaLinks {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 11px;
+        }
+
+      }
+
+
+    }
+
+  }
+}
